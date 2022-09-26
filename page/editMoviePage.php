@@ -23,7 +23,7 @@
             </div>
             <div class="mb-3">
                 <label for="release" class="form-label">Release</label>
-                <input class="form-control" id="release" name="release">
+                <input class="form-control" id="realease" name="realease">
             </div>
             <div class="mb-3">
                 <label for="season" class="form-label">Season</label>

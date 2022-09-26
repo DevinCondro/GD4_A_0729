@@ -6,10 +6,10 @@
         $id = $_POST['id'];
         $name = $_POST['name'];
         $genre = $_POST['genre'];
-        $release = $_POST['release'];
+        $realease = $_POST['realease'];
         $season = $_POST['season'];
         
-        $sql = "UPDATE movies SET name='$name', genre='$genre', release='$release', season='$season' WHERE id=$id";
+        $sql = "UPDATE movies SET name='$name', genre='$genre', realease='$realease', season='$season' WHERE id=$id";
 
         if($con->query($sql) === TRUE) {
           echo

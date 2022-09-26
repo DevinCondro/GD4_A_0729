@@ -33,15 +33,14 @@ die(mysqli_error($con));
                     <th scope="row">'.$no.'</th>
                     <td>'.$data['name'].'</td>
                     <td>'.$data['genre'].'</td>
-                    <td>'.$data['release'].'</td>
+                    <td>'.$data['realease'].'</td>
                     <td>'.$data['season'].'</td>
                     <td>
                     <a href="../page/editMoviePage.php?id='.$data['id'].'"
                     onClick="return confirm ( \'Yakin ingin mengedit movie?\')"> 
-                    <i style="color: blue" class="fa-sharp fa fa-pencil fa-2x"></i>
+                    <i style="color: blue" class="fa fa-pencil fa-2x"></i>
                                 </a>
-                            </td>
-                    <td>
+                            
                         <a href="../process/deleteMoviesProcess.php?id='.$data['id'].'"
                     onClick="return confirm ( \'Are you sure want to delete this
                     data?\')">          
